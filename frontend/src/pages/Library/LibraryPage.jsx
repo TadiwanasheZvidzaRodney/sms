@@ -63,7 +63,7 @@ const LibraryPage = () => {
               variant="h4"
               sx={{
                 fontWeight: 'bold',
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
                 backgroundClip: 'text',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
@@ -119,10 +119,10 @@ const LibraryPage = () => {
                 borderRadius: 3,
                 textTransform: 'none',
                 fontWeight: 600,
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
                 '&:hover': {
                   background:
-                    'linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%)',
+                    'linear-gradient(135deg, #222222 0%, #444444 100%)',
                 },
               }}
             >

@@ -3,22 +3,30 @@ import { createTheme } from '@mui/material/styles';
 const theme = createTheme({
   palette: {
     primary: {
-      main: '#4CAF50', // Green for main buttons and highlights
+      main: '#000000', // Black for main buttons and highlights
+      light: '#333333',
+      dark: '#000000',
+      contrastText: '#ffffff',
     },
     secondary: {
-      main: '#FF9800', // Orange for accents and secondary actions
+      main: '#666666', // Gray for accents and secondary actions
+      light: '#888888',
+      dark: '#444444',
+      contrastText: '#ffffff',
     },
     background: {
-      default: '#f4f4f4', // Light background for the app
+      default: '#fafafa', // Light gray background for the app
       paper: '#ffffff', // White for paper/card components
     },
     text: {
-      primary: '#212121', // Dark text for readability
-      secondary: '#757575', // Lighter secondary text
+      primary: '#000000', // Black text for readability
+      secondary: '#666666', // Gray secondary text
     },
     action: {
-      hover: '#f0f0f0', // Hover state color
+      hover: '#f5f5f5', // Hover state color
+      selected: '#eeeeee',
     },
+    divider: '#e0e0e0',
   },
   typography: {
     fontFamily: ['Inter', 'Roboto', 'Arial', 'sans-serif'].join(','),

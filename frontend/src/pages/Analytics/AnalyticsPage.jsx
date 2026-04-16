@@ -416,8 +416,8 @@ const AnalyticsPage = () => {
                 sx={{
                   fontWeight: 800,
                   background: darkMode
-                    ? 'linear-gradient(135deg, #60a5fa 0%, #38bdf8 100%)'
-                    : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                    ? 'linear-gradient(135deg, #888888 0%, #aaaaaa 100%)'
+                    : 'linear-gradient(135deg, #000000 0%, #333333 100%)',
                   backgroundClip: 'text',
                   WebkitBackgroundClip: 'text',
                   WebkitTextFillColor: 'transparent',
@@ -482,10 +482,10 @@ const AnalyticsPage = () => {
               disabled={loading}
               sx={{
                 borderRadius: 3,
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
                 '&:hover': {
                   transform: 'translateY(-2px)',
-                  boxShadow: '0 8px 25px rgba(102, 126, 234, 0.4)',
+                  boxShadow: '0 8px 25px rgba(0, 0, 0, 0.4)',
                 },
                 transition: 'all 0.3s ease',
               }}

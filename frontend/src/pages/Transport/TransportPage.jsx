@@ -131,7 +131,7 @@ const TransportPage = () => {
       sx={{
         p: 3,
         minHeight: '100vh',
-        background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+        background: 'linear-gradient(135deg, #fafafa 0%, #f0f0f0 100%)',
       }}
     >
       {/* Header Section */}
@@ -144,10 +144,10 @@ const TransportPage = () => {
           sx={{
             p: 4,
             mb: 3,
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
             color: 'white',
             borderRadius: 3,
-            boxShadow: '0 8px 32px rgba(102, 126, 234, 0.3)',
+            boxShadow: '0 8px 32px rgba(0, 0, 0, 0.3)',
           }}
         >
           <Box
@@ -206,28 +206,28 @@ const TransportPage = () => {
             label: 'Total Routes',
             value: transportStats.totalRoutes,
             icon: <Route sx={{ fontSize: 32 }} />,
-            color: '#667eea',
+            color: '#000000',
             change: '+2',
           },
           {
             label: 'Active Vehicles',
             value: transportStats.activeVehicles,
             icon: <DirectionsBus sx={{ fontSize: 32 }} />,
-            color: '#43e97b',
+            color: '#333333',
             change: '+1',
           },
           {
             label: 'Students Transported',
             value: transportStats.totalStudents,
             icon: <People sx={{ fontSize: 32 }} />,
-            color: '#4facfe',
+            color: '#444444',
             change: '+15',
           },
           {
             label: 'On-time Rate',
             value: `${transportStats.onTimeRate}%`,
             icon: <Schedule sx={{ fontSize: 32 }} />,
-            color: '#f093fb',
+            color: '#555555',
             change: '+2.1%',
           },
         ].map((stat, index) => (

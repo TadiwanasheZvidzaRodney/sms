@@ -28,25 +28,25 @@ const LandingPage = () => {
       title: 'Smart Dashboard',
       description:
         'Real-time insights and analytics for better decision making',
-      color: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+      color: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
     },
     {
       icon: <People sx={{ fontSize: 40 }} />,
       title: 'Student Management',
       description: 'Comprehensive student profiles and progress tracking',
-      color: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+      color: 'linear-gradient(135deg, #333333 0%, #555555 100%)',
     },
     {
       icon: <TrendingUp sx={{ fontSize: 40 }} />,
       title: 'Performance Analytics',
       description: 'Advanced analytics to track academic performance',
-      color: 'linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)',
+      color: 'linear-gradient(135deg, #444444 0%, #666666 100%)',
     },
     {
       icon: <Security sx={{ fontSize: 40 }} />,
       title: 'Secure & Reliable',
       description: 'Enterprise-grade security for your data protection',
-      color: 'linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)',
+      color: 'linear-gradient(135deg, #222222 0%, #444444 100%)',
     },
   ];
 
@@ -72,7 +72,7 @@ const LandingPage = () => {
         position="fixed"
         elevation={0}
         sx={{
-          background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+          background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
           boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
         }}
       >
@@ -156,7 +156,7 @@ const LandingPage = () => {
               variant="h2"
               sx={{
                 fontWeight: 'bold',
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
                 backgroundClip: 'text',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',
@@ -298,15 +298,15 @@ const LandingPage = () => {
                       onClick={() => navigate('/login')}
                       sx={{
                         background:
-                          'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                          'linear-gradient(135deg, #000000 0%, #333333 100%)',
                         px: 4,
                         py: 2.5,
                         borderRadius: 3,
                         fontWeight: 'bold',
                         fontSize: '1.2rem',
-                        boxShadow: '0 8px 25px rgba(102, 126, 234, 0.3)',
+                        boxShadow: '0 8px 25px rgba(0, 0, 0, 0.3)',
                         '&:hover': {
-                          boxShadow: '0 12px 35px rgba(102, 126, 234, 0.4)',
+                          boxShadow: '0 12px 35px rgba(0, 0, 0, 0.4)',
                           transform: 'translateY(-2px)',
                         },
                         transition: 'all 0.3s ease',
@@ -487,7 +487,7 @@ const LandingPage = () => {
                           sx={{
                             fontWeight: 'bold',
                             background:
-                              'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                              'linear-gradient(135deg, #000000 0%, #333333 100%)',
                             backgroundClip: 'text',
                             WebkitBackgroundClip: 'text',
                             WebkitTextFillColor: 'transparent',
@@ -525,7 +525,7 @@ const LandingPage = () => {
               sx={{
                 fontWeight: 'bold',
                 mb: 2,
-                background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+                background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
                 backgroundClip: 'text',
                 WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent',

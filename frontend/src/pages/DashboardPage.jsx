@@ -31,7 +31,7 @@ const Dashboard = () => {
       { month: 'Mar', value: 1200 },
     ],
     change: 5,
-    color: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+    color: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
   };
 
   const teachersData = {
@@ -43,7 +43,7 @@ const Dashboard = () => {
       { month: 'Mar', value: 80 },
     ],
     change: 3,
-    color: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+    color: 'linear-gradient(135deg, #333333 0%, #555555 100%)',
   };
 
   // Time-Sensitive Data
@@ -53,14 +53,14 @@ const Dashboard = () => {
       title: 'Final Exams',
       category: 'Academics',
       date: '2025-03-15',
-      color: '#667eea',
+      color: '#000000',
     },
     {
       id: 2,
       title: 'Parent-Teacher Meeting',
       category: 'Meeting',
       date: '2025-03-20',
-      color: '#f093fb',
+      color: '#333333',
     },
   ];
 
@@ -102,7 +102,7 @@ const Dashboard = () => {
     <Box
       sx={{
         p: 3,
-        background: 'linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%)',
+        background: 'linear-gradient(135deg, #fafafa 0%, #f0f0f0 100%)',
         minHeight: '100vh',
       }}
     >
@@ -116,7 +116,7 @@ const Dashboard = () => {
           sx={{
             mb: 4,
             fontWeight: 'bold',
-            background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
             backgroundClip: 'text',
             WebkitBackgroundClip: 'text',
             WebkitTextFillColor: 'transparent',

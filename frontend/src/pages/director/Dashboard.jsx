@@ -15,7 +15,7 @@ const DirectorDashboard = () => (
               p: 3,
               borderRadius: 4,
               boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
-              background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+              background: 'linear-gradient(135deg, #000000 0%, #333333 100%)',
               color: 'white',
             }}
           >
@@ -38,7 +38,7 @@ const DirectorDashboard = () => (
               p: 3,
               borderRadius: 4,
               boxShadow: '0 10px 30px rgba(0, 0, 0, 0.1)',
-              background: 'linear-gradient(135deg, #f093fb 0%, #f5576c 100%)',
+              background: 'linear-gradient(135deg, #333333 0%, #555555 100%)',
               color: 'white',
             }}
           >

@@ -112,7 +112,7 @@ const Header = ({ navConfig: navConfigProp }) => {
           backdropFilter: scrolled ? 'blur(20px)' : 'none',
           backgroundImage: scrolled
             ? 'none'
-            : 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+            : 'linear-gradient(135deg, #000000 0%, #333333 100%)',
           boxShadow: scrolled ? '0 8px 32px rgba(0, 0, 0, 0.1)' : 'none',
           transition: 'all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94)',
           borderBottom: scrolled
@@ -157,7 +157,7 @@ const Header = ({ navConfig: navConfigProp }) => {
                       // filter: scrolled ? 'none' : 'brightness(0) invert(1)',
                       // filter: scrolled ? 'brightness(0) invert(1)' : 'none',
                       background: scrolled
-                        ? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+                        ? 'linear-gradient(135deg, #000000 0%, #333333 100%)'
                         : 'linear-gradient(135deg, #fff 0%, #f8f9fa 100%)',
                       transition: 'all 0.3s ease',
                     }}
@@ -171,7 +171,7 @@ const Header = ({ navConfig: navConfigProp }) => {
                   sx={{
                     fontWeight: 800,
                     background: scrolled
-                      ? 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)'
+                      ? 'linear-gradient(135deg, #000000 0%, #333333 100%)'
                       : 'linear-gradient(135deg, #fff 0%, #f8f9fa 100%)',
                     backgroundClip: 'text',
                     WebkitBackgroundClip: 'text',
