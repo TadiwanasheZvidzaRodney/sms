@@ -16,6 +16,7 @@ lerna-debug.log*
 /dist/
 /dist-ssr/
 /backend/build/
+/frontend/.vite/
 
 # Environment variables
 .env
@@ -38,3 +39,4 @@ lerna-debug.log*
 
 # Vite cache
 .cache/
+node_modules
