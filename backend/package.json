@@ -5,6 +5,7 @@
     "type": "module",
     "scripts": {
         "start": "nodemon server.js",
+        "seed": "node scripts/seedUsers.js",
         "lint": "eslint . --config ../eslint.config.mjs",
         "lint:fix": "eslint . --config ../eslint.config.mjs --fix"
     },
@@ -24,6 +25,7 @@
         "hpp": "^0.2.3",
         "joi": "^17.13.3",
         "jsonwebtoken": "^9.0.3",
+        "mongodb": "^7.1.1",
         "mongoose": "^6.13.8",
         "multer": "^1.4.5-lts.2",
         "node-fetch": "^3.3.2",

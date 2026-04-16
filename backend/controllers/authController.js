@@ -45,7 +45,7 @@ const getCookieOptions = (isRefreshToken = false, rememberMe = false) => {
     const maxDays = rememberMe ? 30 : 7;
     return {
       ...options,
-      path: '/api/auth/refresh',
+      path: '/',
       maxAge: maxDays * 24 * 60 * 60 * 1000
     };
   }
@@ -239,7 +239,7 @@ export const logout = async (req, res) => {
 
     // Clear cookies
     res.clearCookie('accessToken');
-    res.clearCookie('refreshToken', { path: '/api/auth/refresh' });
+    res.clearCookie('refreshToken', { path: '/' });
 
     res.status(200).json({ message: 'Logged out successfully' });
   } catch (error) {
